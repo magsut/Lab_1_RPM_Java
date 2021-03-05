@@ -56,7 +56,7 @@ public class GameServer {
 
         System.out.println(getInstance());
 
-        while (counterOfUpdates<15)
+        while (counterOfUpdates<30)
         {
             updateServer();
         }
